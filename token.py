@@ -1,0 +1,7 @@
+TokenType
+
+PRINT
+STRING
+LPAREN
+RPAREN
+EOF
