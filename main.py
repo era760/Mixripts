@@ -3,7 +3,6 @@ from lexer import Lexer
 def main():
     with open("examples/hello.mxr", encoding="utf-8") as f:
         source = f.read()
-        print(source)
 
     lexer = Lexer(source)
     tokens = lexer.tokenize()
