@@ -16,6 +16,10 @@ class Lexer:
 
                 word_str = "".join(word)
                 print("見つけた単語:", word_str)
+                if word_str == "print":
+                    print("PRINT TOKEN")
+                else:
+                    print("IDENTIFIER TOKEN")
 
             else:
                 self.position += 1
